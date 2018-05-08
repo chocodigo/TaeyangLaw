@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/text_icon"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/resume"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="등기권리증 신청이 완료되었습니다."
+        android:textColor="@color/SecondText"
+        />
+    <Button
+        android:id="@+id/back_button"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="메인 화면으로 돌아가기"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="#FFFFFF"
+        android:background="@color/AccentColor"
+        android:layout_marginBottom="20dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/DividerColor"
+        android:layout_marginBottom="20dp"
+        />
+    <ImageView
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/logo3"/>
+</LinearLayout>

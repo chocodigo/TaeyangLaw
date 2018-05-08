@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="@color/text_icon"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:fitsSystemWindows="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:diagonal="http://schemas.android.com/tools"
+    android:scrollbars="vertical"
+
+    android:background="#AAA">
+
+<com.github.florent37.diagonallayout.DiagonalLayout
+    xmlns:diagonal="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/diagonalLayout"
+    android:layout_width="match_parent"
+    android:layout_height="266dp"
+    diagonal:diagonal_angle="10"
+    android:elevation="0dp"
+    android:paddingBottom="16dp"
+    diagonal:diagonal_direction="left"
+    diagonal:diagonal_position="bottom"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lawyer"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이강열"
+        android:textColor="@android:color/white"
+        android:layout_gravity="top|left"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:textSize="25sp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="105dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="태양법률사무소 대표"
+            android:textColor="@android:color/white"
+            android:layout_gravity="top|left"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="14sp"
+            />
+
+
+    </LinearLayout>
+
+</com.github.florent37.diagonallayout.DiagonalLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="190dp"
+        android:elevation="15dp"
+        android:background="@drawable/diagonallayout_circle"
+        android:src="@drawable/lee"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_marginTop="230dp"
+        >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/diagonalLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="학력"
+            android:textColor="@color/PrimaryText"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- 1991 한양대 법학과 졸업"
+            android:textColor="@color/text_icon"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="경력"
+            android:textColor="@color/PrimaryText"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_icon"
+            android:text="- 사법시험 합격 제34회"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_icon"
+            android:text="- 사법연수원"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_icon"
+            android:text="- 1995 변호사 개업"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_icon"
+            android:text="- 1996 평택지원 조정의원"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_icon"
+            android:text="- 2002 평택시 상공회의소 고문 변호사"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_icon"
+            android:text="- 2004 평택시 고문 변호사"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_icon"
+            android:text="- 2014 평택도시공사 고문 변호사"
+            android:textSize="15dp"
+            android:layout_marginBottom="20dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/DividerColor"
+            android:layout_marginBottom="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="“당신의 길잡이가 되어드립니다.”"
+            android:textColor="@color/PrimaryText"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8dip"
+            android:textColor="@color/text_icon"
+            android:text="고객의 행복한 삶을 위해 법률문제 및 등기업무를 체계적이고 신속하게 처리하기 위해 노력하고 있습니다."
+            android:textSize="15dp"
+            android:layout_marginBottom="8dip"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8dip"
+            android:textColor="@color/text_icon"
+            android:text="일반적인 민사, 형사 법률상담은 물론 등기업무까지 고객이 만족할 서비스 수준과 만족도 등 모든 면에서 최고의 평가를 받고 있습니다. "
+            android:textSize="15dp"
+            android:layout_marginBottom="8dip"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8dip"
+            android:textColor="@color/text_icon"
+            android:text="태양법률사무소는 고객들이 추구하는 가치를 파악하고, 근본적으로 실현될 수 있는 해결방안을 제시하므로 “반드시 승소한다.” 라는 마음가짐으로 진행하고 있습니다."
+            android:textSize="15dp"
+            android:layout_marginBottom="8dip"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8dip"
+            android:textColor="@color/text_icon"
+            android:text="고객들의 “맞춤형 법률서비스”를 제공하고 각 분야에 대한 전문적인 팀구성으로 전략적이고 체계적인 해결로 인해 고객들이 태양법률사무소를 선택하고 있습니다."
+            android:textSize="15dp"
+            android:layout_marginBottom="8dip"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8dip"
+            android:textColor="@color/text_icon"
+            android:text="태양법률사무소는 고객들의 신뢰를 최우선으로 생각하며, 사회적 책임과 의무를 다하는 길잡이로서 쉽고 빠르게 대처하는데 한걸음 나아가도록 최선을 다해 노력하겠습니다."
+            android:textSize="15dp"
+            android:layout_marginBottom="20dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/DividerColor"
+            android:layout_marginBottom="20dp"
+            />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo3"/>
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

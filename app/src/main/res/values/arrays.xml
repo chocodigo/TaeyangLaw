@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="apart">
+        <item>모아엘가더테라스(호려울마을6단지)</item>
+        <item>우남퍼스트빌(해들마을3단지)</item>
+        <item>신동아파밀리에3차(해들마을1단지)</item>
+        <item>한신제일풍경채L1(가온마을2단지)</item>
+        <item>중흥S클래스센텀시티L2(가온마을5단지)</item>
+
+    </string-array>
+
+    <string-array name="bank">
+        <item>농협</item>
+        <item>대구</item>
+        <item>상호저축</item>
+        <item>신협</item>
+        <item>제주</item>
+        <item>경남</item>
+        <item>도이치</item>
+        <item>새마을</item>
+        <item>외환</item>
+        <item>하나</item>
+        <item>광주</item>
+        <item>도쿄</item>
+        <item>우리</item>
+        <item>HSBC</item>
+        <item>국민</item>
+        <item>부산</item>
+        <item>씨티</item>
+        <item>우체국</item>
+        <item>SC제일</item>
+        <item>기업</item>
+        <item>산업</item>
+        <item>신한</item>
+        <item>전북</item>
+        <item>수협</item>
+        <item>기술신용보증기금</item>
+        <item>교보증권</item>
+        <item>대우증권</item>
+        <item>동부증권</item>
+        <item>미즈호코퍼레이드은행</item>
+        <item>메리츠증권</item>
+        <item>수산협동조합</item>
+        <item>신용보증기금</item>
+        <item>신한금융투자</item>
+        <item>에이비엔암로은행</item>
+        <item>우리투자증권</item>
+        <item>유진투자증권</item>
+        <item>투자증권HMC</item>
+        <item>한국투자증권</item>
+        <item>한화증권</item>
+        <item>금융결제원</item>
+        <item>동양종합금융증권</item>
+        <item>대신증권</item>
+        <item>모건스탠리은행</item>
+        <item>미래에셋증권</item>
+        <item>뱅크오브아메리카</item>
+        <item>신용협동조합</item>
+        <item>삼성증권</item>
+        <item>신영증권</item>
+        <item>유에프제이은행</item>
+        <item>SK증권</item>
+        <item>NH투자증권</item>
+        <item>현대증권</item>
+        <item>하이투자증권</item>
+        <item>하나대투증권</item>
+    </string-array>
+</resources>
