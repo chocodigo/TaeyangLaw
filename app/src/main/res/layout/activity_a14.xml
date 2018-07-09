@@ -1,0 +1,54 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:diagonal="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+        <com.github.florent37.diagonallayout.DiagonalLayout
+            android:id="@+id/diagonalLayout"
+            android:layout_width="match_parent"
+            android:layout_height="266dp"
+            diagonal:diagonal_angle="10"
+            android:elevation="0dp"
+            android:paddingBottom="16dp"
+            diagonal:diagonal_direction="left"
+            diagonal:diagonal_position="bottom"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <com.flaviofaria.kenburnsview.KenBurnsView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/question"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14. 보존등기란?"
+                android:textColor="@color/text_icon"
+                android:layout_gravity="top|left"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textSize="25sp"
+                />
+        </com.github.florent37.diagonallayout.DiagonalLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="8dip"
+            android:lineSpacingExtra="8dip"
+            android:text="부동산 소유권의 보존을 위하여 미등기 부동산에 대하여 처음 등기하는 것(최초등기)을 말합니다."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="8dip"
+            android:lineSpacingExtra="8dip"
+            android:text="[추가로 보존등기가 시행사 앞으로 완료되어야 수분양자 앞으로 소유권 이전등기를 할 수 있습니다.]"/>
+    </LinearLayout>

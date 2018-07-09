@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
-    android:background="@color/text_icon"
+    android:background="@drawable/background"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -11,8 +11,7 @@
     android:layout_height="wrap_content"
     xmlns:diagonal="http://schemas.android.com/tools"
     android:scrollbars="vertical"
-
-    android:background="#AAA">
+    >
 
 <com.github.florent37.diagonallayout.DiagonalLayout
     xmlns:diagonal="http://schemas.android.com/apk/res-auto"
@@ -112,60 +111,62 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="학력"
+            android:layout_marginBottom="8dip"
             android:textColor="@color/PrimaryText"
             android:textSize="20dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="- 1991 한양대 법학과 졸업"
-            android:textColor="@color/text_icon"
+            android:layout_marginBottom="8dip"
             android:textSize="15dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
             android:text="경력"
             android:textColor="@color/PrimaryText"
             android:textSize="20dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/text_icon"
+            android:layout_marginBottom="8dip"
             android:text="- 사법시험 합격 제34회"
             android:textSize="15dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/text_icon"
+            android:layout_marginBottom="8dip"
             android:text="- 사법연수원"
             android:textSize="15dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/text_icon"
+            android:layout_marginBottom="8dip"
             android:text="- 1995 변호사 개업"
             android:textSize="15dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/text_icon"
+            android:layout_marginBottom="8dip"
             android:text="- 1996 평택지원 조정의원"
             android:textSize="15dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/text_icon"
+            android:layout_marginBottom="8dip"
             android:text="- 2002 평택시 상공회의소 고문 변호사"
             android:textSize="15dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/text_icon"
+            android:layout_marginBottom="8dip"
+
             android:text="- 2004 평택시 고문 변호사"
             android:textSize="15dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/text_icon"
             android:text="- 2014 평택도시공사 고문 변호사"
             android:textSize="15dp"
             android:layout_marginBottom="20dp"/>
@@ -187,7 +188,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8dip"
-            android:textColor="@color/text_icon"
             android:text="고객의 행복한 삶을 위해 법률문제 및 등기업무를 체계적이고 신속하게 처리하기 위해 노력하고 있습니다."
             android:textSize="15dp"
             android:layout_marginBottom="8dip"
@@ -196,7 +196,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8dip"
-            android:textColor="@color/text_icon"
             android:text="일반적인 민사, 형사 법률상담은 물론 등기업무까지 고객이 만족할 서비스 수준과 만족도 등 모든 면에서 최고의 평가를 받고 있습니다. "
             android:textSize="15dp"
             android:layout_marginBottom="8dip"/>
@@ -204,7 +203,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8dip"
-            android:textColor="@color/text_icon"
             android:text="태양법률사무소는 고객들이 추구하는 가치를 파악하고, 근본적으로 실현될 수 있는 해결방안을 제시하므로 “반드시 승소한다.” 라는 마음가짐으로 진행하고 있습니다."
             android:textSize="15dp"
             android:layout_marginBottom="8dip"/>
@@ -212,7 +210,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8dip"
-            android:textColor="@color/text_icon"
             android:text="고객들의 “맞춤형 법률서비스”를 제공하고 각 분야에 대한 전문적인 팀구성으로 전략적이고 체계적인 해결로 인해 고객들이 태양법률사무소를 선택하고 있습니다."
             android:textSize="15dp"
             android:layout_marginBottom="8dip"/>
@@ -220,7 +217,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8dip"
-            android:textColor="@color/text_icon"
             android:text="태양법률사무소는 고객들의 신뢰를 최우선으로 생각하며, 사회적 책임과 의무를 다하는 길잡이로서 쉽고 빠르게 대처하는데 한걸음 나아가도록 최선을 다해 노력하겠습니다."
             android:textSize="15dp"
             android:layout_marginBottom="20dp"/>

@@ -1,0 +1,78 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:diagonal="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+        <com.github.florent37.diagonallayout.DiagonalLayout
+            android:id="@+id/diagonalLayout"
+            android:layout_width="match_parent"
+            android:layout_height="266dp"
+            diagonal:diagonal_angle="10"
+            android:elevation="0dp"
+            android:paddingBottom="16dp"
+            diagonal:diagonal_direction="left"
+            diagonal:diagonal_position="bottom"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <com.flaviofaria.kenburnsview.KenBurnsView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/question"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="07. 잔금조회 및 납부(대출신청세대는 신청한 은행에서 일괄안내)"
+                android:textColor="@color/text_icon"
+                android:layout_gravity="top|left"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textSize="25sp"
+                />
+        </com.github.florent37.diagonallayout.DiagonalLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="8dip"
+            android:lineSpacingExtra="8dip"
+            android:text="입금하실 분양대금, 옵션대금 조회(입금일자 기준 - 연체료 포함)"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="8dip"
+            android:lineSpacingExtra="8dip"
+            android:text="* 납부기간 : 입주 전(최소 당일까지) 납부(무통장 입금증(영수증) 필히 지참)"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="8dip"
+            android:lineSpacingExtra="8dip"
+            android:text="* 선납할인 : 입주 개시전일 기준으로 할인금액이 적용됨"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="8dip"
+            android:lineSpacingExtra="8dip"
+            android:text="* 연체료 : 입주만료 익일부터는 입주여부에 상관없이 미납금액에 대해 연체료가 부과됨"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="8dip"
+            android:lineSpacingExtra="8dip"
+            android:text="(입주 지정기간동안에는 잔금에 대해 할인료 및 연체료가 발생하지 않음)"/>
+    </LinearLayout>

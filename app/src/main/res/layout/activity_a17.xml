@@ -1,0 +1,63 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:diagonal="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+        <com.github.florent37.diagonallayout.DiagonalLayout
+            android:id="@+id/diagonalLayout"
+            android:layout_width="match_parent"
+            android:layout_height="266dp"
+            diagonal:diagonal_angle="10"
+            android:elevation="0dp"
+            android:paddingBottom="16dp"
+            diagonal:diagonal_direction="left"
+            diagonal:diagonal_position="bottom"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <com.flaviofaria.kenburnsview.KenBurnsView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/question"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17. 사용승인(준공)이란?"
+                android:textColor="@color/text_icon"
+                android:layout_gravity="top|left"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textSize="25sp"
+                />
+        </com.github.florent37.diagonallayout.DiagonalLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="8dip"
+            android:lineSpacingExtra="8dip"
+            android:text="'사용승인(준공)'을 득하면 입주가 가능해집니다."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="8dip"
+            android:lineSpacingExtra="8dip"
+            android:text="사전점검행사 이후 시행사는 예상되는 사용승인일 전에 입주지정기간을 확정하여 수분양자에게 통지하며, 수분양자는 이때 입주날짜를 정하시면 됩니다."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="8dip"
+            android:lineSpacingExtra="8dip"
+            android:text="[참고] 수분양자는 입주시 1) 분양잔금완납과 2) 중도금대출금 상환(현금상환 또는 잔금대출로 전환) 및 3)선수관리비 예치 등이 확인되어야 입주증을 받으실 수 있습니다."/>
+
+    </LinearLayout>
